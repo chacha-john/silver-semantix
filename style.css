@@ -1,6 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 ul{
     list-style-type: none;
 }
 a{
     text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    font-size: xx-large;
+}
+nav img{
+    width: 70%;
+}
+nav ul{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
 }
