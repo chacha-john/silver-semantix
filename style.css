@@ -16,6 +16,10 @@ nav{
     font-size: xx-large;
 }
 nav img{
+    width: 15%;
+    text-align: left;
+}
+.img{
     width: 70%;
     text-align: left;
 }
@@ -74,4 +78,7 @@ section{
     width: 50%;
     border-radius: 50%;
     position: static;
+}
+.bottom a{
+    font-size: xx-large;
 }
