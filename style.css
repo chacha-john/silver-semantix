@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Syne Mono', monospace;
 }
 ul{
     list-style-type: none;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 nav{
     display: flex;
@@ -22,4 +22,29 @@ nav ul{
     display: flex;
     width: 30%;
     justify-content: space-evenly;
+    font-size: x-large;
+    margin-top: .5%;
+}
+header{
+    background: url("assets/asset-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    filter: contrast(75%);
+    color: white;
+}
+.banner{
+    padding: 10%;
+    font-size: x-large;
+    text-align: center;
+}
+.banner p{
+    width: 50%;
+    align-items: center;
+    position: relative;
+    left: 25%;
+
+}
+body{
+    background: #518581;
 }
